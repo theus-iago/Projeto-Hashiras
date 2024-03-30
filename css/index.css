@@ -105,13 +105,13 @@ main {
   width: 100%;
   position: relative;
   display: grid;
-  grid-template-rows: repeat(19, 600px);
+  grid-template-rows: 100vh repeat(18, 600px);
 }
 #content-00 {
   background-color: #1d1d1dd5;
   box-shadow: 1px 2px 2px #1d1d1d;
   border-radius: 8px;
-  font-size: 1.7em;
+  font-size: 1.4em;
   padding: 5px;
   width: 50%;
   display:block;
